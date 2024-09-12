@@ -11,7 +11,7 @@ function App() {
 
     useEffect(( )=>{
         axios.get("https://jsonplaceholder.typicode.com/todos")
-        .then(res => console.log(res.data));
+        .then(res => console.log(res));
 
         // axios.all([
         //     axios.get("https://jsonplaceholder.typicode.com/todos"),
